@@ -1,4 +1,4 @@
-from rest_framework.generice import ListAPIView, RetrieveAPIView
+from rest_framework.generic import ListAPIView, RetrieveAPIView
 
 from .models import Syntax
 from .serializers import SyntaxSerializers
